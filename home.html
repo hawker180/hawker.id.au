@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Hawker</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .portfolio-item {
+            flex-basis: 30%;
+            margin-bottom: 20px;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Luke Hawker</h1>
+            <p>Passionate artist and performer</p>
+        </header>
+
+        <section class="portfolio">
+            <div class="portfolio-item">
+                <img src="image1.jpg" alt="Portfolio Image 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="image2.jpg" alt="Portfolio Image 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="image3.jpg" alt="Portfolio Image 3">
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+
+        <section class="contact">
+            <p>Get in touch:</p>
+            <a href="mailto:luke.hawker@example.com">Email</a>
+            <a href="tel:+1234567890">Phone</a>
+            <!-- Add social media links if applicable -->
+        </section>
+    </div>
+</body>
+</html>
